@@ -74,7 +74,7 @@ for(i in 1:length(sim0.1)){
   PAs1.0[[i]] <- matrix(c(trsYule$tip.label, sim1.0[[i]]$state), nrow = length(trsYule$tip.label), ncol = 2)
 }
 
-## Estimate parameters of colonization and local extinction based on know paraterms
+## Estimate parameters of colonization and local extinction based on know parameters
 out0.1 <- list()
 out0.25 <- list()
 out0.4 <- list()
